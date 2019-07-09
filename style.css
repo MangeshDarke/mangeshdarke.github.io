@@ -1,0 +1,39 @@
+.profile_pic {
+	border-radius: 48%
+}
+
+.links {
+	list-style: none;
+  	padding-left: 0px;
+  	font-size: 18px;
+}
+
+.links li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.body {
+	background: linear-gradient(to bottom, rgba(231, 240, 245, 1) 0%, rgba(170, 221, 235, 1) 100%);
+}
+
+html, .wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+
+	font-family: 'Open-Sans', sans-serif;
+}
+
+.left {
+	margin-right: 15px;
+}
+
+.right {
+	font-family: 'Times New Roman', Times, serif;
+	justify-content: center;
+}
+
