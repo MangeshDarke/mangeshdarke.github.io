@@ -25,7 +25,8 @@ html, .wrapper {
 	margin: 0px;
 	padding: 0px;
 
-	font-family: 'Arial', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
 }
 
 .left {
@@ -33,7 +34,8 @@ html, .wrapper {
 }
 
 .right {
-	font-family: 'Arial', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
 	justify-content: center;
 }
 
