@@ -25,7 +25,7 @@ html, .wrapper {
 	margin: 0px;
 	padding: 0px;
 
-	font-family: 'Adequate', sans-serif;
+	font-family: 'Arial', sans-serif;
 }
 
 .left {
@@ -33,7 +33,7 @@ html, .wrapper {
 }
 
 .right {
-	font-family: 'Adequate', sans-serif;
+	font-family: 'Arial', sans-serif;
 	justify-content: center;
 }
 
