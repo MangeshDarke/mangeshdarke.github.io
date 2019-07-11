@@ -4,29 +4,75 @@
     <title>Mangesh Darke</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
   </head>
 
   <body class="body">
+
+    <div id="navbar">
+
+      <nav>
+        <ul class="navbar-content">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Education</a></li>
+            <li><a href="#">Photography</a></li>
+        </ul>
+
+      </nav>
+
+    </div>
+
+
   	<div class="wrapper">
-  		<div class="left">
-	  		<img class="profile_pic" src="img/me_paris.jpg" width="200" />
-	  	</div>
-	  	<div class="right">
-	  		<h1 class="name">Mangesh Darke</h1>
-	  		<h3 class="title">Certified Goofy Goober</h3>
-	  		<p class="bio">CS @ Berkeley | More to come...</p>
-	  		<ul class="links">
-		    	<li>
-		    		<a href="https://github.com/MangeshDarke">Github</a>
-		    	</li>
-		    	<li>
-		    		<a href="https://www.linkedin.com/in/mdarke/">LinkedIn</a>
-		    	</li>
-			    <li>
-		    		<a href="https://mangeshdarke.dev/docs/MangeshDarkeCV.pdf">Resume</a>
-		    	</li>
-	    	</ul>
-	  	</div>
+
+      <section class="section" id="first-section">
+        <div id="name-pic">
+
+          <div id="name">Mangesh Darke</div>
+
+        </div>
+      </section>
+
+      <section class="section" id="second-section">
+        <div class="about">
+          <div class="picture">
+            <img class="profile_pic" src="img/queenstraight.jpg" width="300" />
+          </div>
+
+          <div class="who-i-am">
+
+            <h1 class="description">Who am I?</h1>
+            <h3 class="title">CS @ Berkeley</h3>
+            <p class="bio_1">I am currently a senior studying Computer Science at UC Berkeley. I'm interested in artifical intelligence/machine learning research and I hope to work on projects that focus in computer vision and natural language processing.</p>
+            <p class="bio_2">Connect with me if you're interested in talking about tech, start-up ideas, or really anything in general!</p>
+            <p class="bio_3">Currently in pursuit of internship opportunities for Summer 2020!</p>
+            <h3 class="connect_title">Let's Connect</h3>
+
+            <div class="links">
+              <li><a href="https://github.com/MangeshDarke">Github</a></li>
+              <li><a href="https://www.linkedin.com/in/mdarke/">LinkedIn</a></li>
+              <li><a href="https://mangeshdarke.dev/docs/MangeshDarkeCV.pdf">Resume</a></li>
+            </div>
+
+          </div>
+        </div>
+
+      </section>
+
   	</div>
+
+    <script type="text/javascript">
+      $(window).onscroll(function() {
+        if($(window).scrollTop()) {
+          $('#navbar').addClass("sticky");
+        } else {
+          $('#navbar').removeClass("sticky");
+        }
+      })
+    </script>
+
   </body>
+
 </html>
