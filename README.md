@@ -1,2 +1,2 @@
-# personalwebsite.github.io
+# mangeshdarke.github.io
 Personal Website
