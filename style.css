@@ -219,19 +219,9 @@ nav {
 	margin: auto;
 }
 
-.berk {
-	background: linear-gradient(to right, #003262 70%, #FDB515 30%);
-}
-
-.chabot {
-	background: linear-gradient(to right, #FFD700 22%, #000000 23%);
-}
-
 .berk, .chabot {
 	font-weight: 800;
 	text-align: left;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
 }
 
 .degree, .edu-title, .collapsible-courses, .courses {
