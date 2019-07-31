@@ -289,6 +289,14 @@ body {
 	text-align: left;
 }
 
+.berk {
+	color: navy;
+}
+
+.chabot {
+	color: yellow;
+}
+
 .degree, .edu-title, .collapsible-courses, .courses {
 	font-weight: 100;
 	font-family: 'Roboto', sans-serif;
