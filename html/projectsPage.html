@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mangesh Darke - Projects</title>
+    <link rel="stylesheet" type="text/css" href="/Users/mangesh/Documents/Website/mangeshdarke.github.io/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"   integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="   crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </head>
+
+  <body class="body">
+
+    <div id="navbar">
+      <nav>
+        <ul class="navbar-content">
+            <li><a href="/Users/mangesh/Documents/Website/mangeshdarke.github.io/html/index.html">Home</a></li>
+            <li><a href="/Users/mangesh/Documents/Website/mangeshdarke.github.io/html/index.html">About</a></li>
+            <li><a href="/Users/mangesh/Documents/Website/mangeshdarke.github.io/html/projectsPage.html">Projects</a></li>
+            <li><a href="/Users/mangesh/Documents/Website/mangeshdarke.github.io/html/index.html">Education</a></li>
+            <li><a href="/Users/mangesh/Documents/Website/mangeshdarke.github.io/html/photographyPage.html">Photography</a></li>
+        </ul>
+      </nav>
+    </div>
+
+  	<div class="wrapper">
+
+      <section class="section" id="project-section">
+        <div class="projects-container">
+          <div class="proj-title">Projects</div>
+          <div>
+            <ul>
+              <h1 class="projs">Coming Soon...</h1>
+              <!--
+              <p class="degree">Bachelor's of Arts in Computer Science | August 2018 - December 2020</p>
+              <p>Relevant Coursework (Coming Soon)</p>
+              <h1 class="chabot">Chabot College</h1>
+              <p class="degree">Coursework in Computer Science | August 2016 - May 2018</p>
+              <p>Relevant Coursework (Coming Soon)</p>-->
+            </ul>
+          </div>
+        </div>
+      </section>
+
+
+    <script>
+    $('a').click(function(){
+        if ($('html, body').animate({
+            scrollTop: $( $(this).attr('href') ).offset().top - 50}, 500)) {
+              $('html, body').animate({
+                  scrollTop: $( $(this).attr('href') ).offset().top - 50
+              }, 500);
+        } else {
+          return false;
+        }
+    });
+    </script>
+  </body>
+</html>
