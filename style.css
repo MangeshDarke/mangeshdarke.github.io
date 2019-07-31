@@ -170,7 +170,8 @@ body {
 	padding-bottom: 3em;
 	background-color: #3F5C78;
 	background-image: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.1));
-	height: auto;
+	background-size: cover;
+	height: 100%;
 }
 
 .about-container {
