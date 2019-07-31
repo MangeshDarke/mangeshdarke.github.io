@@ -34,6 +34,31 @@ body {
 	overflow: hidden;
 }
 
+.footer {
+	font-family: 'Roboto', sans-serif;
+	position: relative;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: auto;
+	background-color: #333;
+	color: white;
+	text-align: center;
+	font-weight: 100;
+	padding-bottom: 1px;
+}
+
+.social-media-footer {
+	list-style: none;
+}
+
+.social-media-footer li {
+	display: inline-block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-right: 10px;
+}
+
 /*
 * === NAVAGATION BAR (HOME PAGE) ===
 */
@@ -178,7 +203,8 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	width: 60%;
+	width: 80%;
+	padding: 150px 0;
 	margin: auto;
 }
 
@@ -291,11 +317,11 @@ body {
 }
 
 .berk {
-	color: navy;
+	color: #003262;
 }
 
 .chabot {
-	color: yellow;
+	color: #C28E0E;
 }
 
 .degree, .edu-title, .collapsible-courses, .courses {
