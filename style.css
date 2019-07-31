@@ -36,7 +36,7 @@ body {
 
 .footer {
 	font-family: 'Roboto', sans-serif;
-	position: relative;
+	position: absolute;
 	left: 0;
 	bottom: 0;
 	width: 100%;
@@ -193,7 +193,7 @@ body {
 #about-section {
 	padding-top: 3em;
 	padding-bottom: 3em;
-	background-color: #3F5C78;
+	background-color: black;
 	background-image: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.1));
 	background-size: cover;
 	height: 100%;
@@ -382,7 +382,7 @@ body {
 
 #photography-description {
 	padding-top: 1em;
-	padding-bottom: 3em;
+	padding-bottom: 4em;
 	background-color: black;
 	height: auto;
 }
