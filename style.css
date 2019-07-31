@@ -16,11 +16,16 @@ body {
 	overflow-x: hidden;
 }
 
-.wrapper {
+
+.wrapper, .wrapper-sec {
 	height: 100%;
 	width: 100%;
 	align-items: center;
 	justify-content: center;
+}
+
+.wrapper-sec {
+	padding-top: 40px;
 }
 
 .section {
@@ -54,7 +59,7 @@ body {
 	text-align: center;
 }
 
-nav {
+.navigation-bar {
 	position: relative;
 	text-align: center;
 	z-index: 1;
