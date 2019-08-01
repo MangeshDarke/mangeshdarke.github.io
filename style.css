@@ -17,15 +17,18 @@ body {
 	overflow-x: hidden;
 }
 
-.wrapper {
+.wrapper, .wrapper-sec, .wrapper-sec-edu {
 	height: 100%;
 	width: 100%;
 	align-items: center;
 	justify-content: center;
 }
 
-.wrapper-sec {
+.wrapper-sec, .wrapper-sec-edu {
 	padding-top: 40px;
+}
+
+.wrapper-sec-edu {
 	height: 125%;
 }
 
