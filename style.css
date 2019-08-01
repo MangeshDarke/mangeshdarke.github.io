@@ -2,6 +2,7 @@
 * === STYLING THAT APPLIES TO MULTIPLE SECTIONS ===
 */
 
+
 html {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 100;
@@ -16,7 +17,7 @@ body {
 	overflow-x: hidden;
 }
 
-.wrapper, .wrapper-sec {
+.wrapper {
 	height: 100%;
 	width: 100%;
 	align-items: center;
@@ -25,6 +26,7 @@ body {
 
 .wrapper-sec {
 	padding-top: 40px;
+	height: 125%;
 }
 
 .section {
@@ -36,8 +38,6 @@ body {
 
 .footer {
 	font-family: 'Roboto', sans-serif;
-	position: sticky;
-	
 	width: 100%;
 	height: auto;
 	background-color: #333;
@@ -261,13 +261,11 @@ body {
 /*
 * === PROJECTS SECTION ===
 */
-/* TODO: - Start coming up with ideas of how you want to structure the projects
- 				 - Come up with snippets to explain the project (resume style)*/
 
 #project-section {
 	padding-top: 3em;
 	padding-bottom: 3em;
-	background-color: black;
+	background-color: white;
 	height: auto;
 }
 
@@ -275,18 +273,66 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	color: white;
-	width: 60%;
+	width: 75%;
 	margin: auto;
+	padding-bottom: 25px;
 }
 
-.proj-title {
+.project-pic {
+	height: 100%;
+	border-radius: 20%;
+}
+
+.proj-section-title {
+	padding-top: 25px;
+	padding-left: 50px;
 	font-size: 30px;
 	font-weight: 100;
+	color: black;
 }
 
 .projs {
 	font-weight: 400;
+}
+
+.project {
+	text-align: left;
+	align-items: center;
+	display: inline-block;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	padding-top: 25px;
+	margin-left: 100px;
+}
+
+.project-title {
+	font-size: 30px;
+	font-weight: 100;
+}
+
+.project-description {
+	color: black;
+	list-style-type: square;
+}
+
+.project-description li {
+	margin: 10px 0;
+}
+
+.project-pic:hover {
+	box-shadow: 0 20px 25px 0 rgba(0,0,0,0.24),0 25px 50px 0 rgba(0,0,0,0.19);
+}
+
+.skills-used {
+	font-style: italic;
+	font-weight: bold;
+}
+
+.footnote {
+	padding-top: 20px;
+	font-style: italic;
+	font-weight: 100;
+	text-align: center;
 }
 
 /*
@@ -294,10 +340,11 @@ body {
 */
 
 #edu-section {
-	padding-top: 3em;
-	padding-bottom: 3em;
+	padding-top: 1em;
+	padding-bottom: 1em;
 	background-color: white;
-	height: auto;
+	background-size: auto;
+	height: 100%;
 }
 
 .education-container {
@@ -323,7 +370,7 @@ body {
 	color: #C28E0E;
 }
 
-.degree, .edu-title, .collapsible-courses, .courses {
+.degree, .edu-title, .coursework, .courses {
 	font-weight: 100;
 	font-family: 'Roboto', sans-serif;
 }
@@ -337,67 +384,48 @@ body {
 .edu-title {
 	font-size: 30px;
 	font-weight: 100;
-}
-
-.collapsible-courses {
-	background-color: white;
-  color: black;
-  cursor: pointer;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 17px;
-}
-
-.active, .collapsible-courses:hover {
-  background-color: white;
+	padding-top: 25px;
+	padding-left: 50px;
 }
 
 .courses {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-  background-color: white;
+
+	margin-left: 10px;
 }
 
 /*
 * === PHOTOGRAPHY SECTION ===
 */
 
-#photography-title {
-	padding-top: 1.5em;
-	padding-bottom: 1.5em;
-	background-color: black;
-	height: auto;
-}
-
 .photo-title {
+	padding-top: 25px;
+	padding-left: 50px;
 	font-size: 30px;
-	text-align: center;
-	color: white;
+	color: black;
 	font-weight: 100;
 }
 
-#photography-description {
-	padding-top: 1em;
-	padding-bottom: 3em;
-	background-color: black;
+.photo-description-section {
+	padding-top: 30px;
+	padding-right: 20px;
+	justify-content: center;
 	height: auto;
+	display: flex;
 }
 
 .photo-description {
-	font-size: 25px;
+	font-size: 20px;
 	font-weight: 100;
-	text-align: center;
-	align-items: center;
-	justify-content: center;
-	color: white;
+	max-width: 50%;
+	color: black;
+	text-align: left;
+	height: auto;
+	margin-right: 50px;
 }
 
 .photos-link {
-	background-color: white;
-  color: black;
+	background-color: pink;
+  color: white;
 	border: 0px solid white;
 	border-radius: 15px;
 	padding: 15px 100px 15px 100px;
@@ -416,7 +444,7 @@ body {
 * === PHOTOGRAPHY CAROUSEL ===
 */
 
-#carouselExampleIndicators {
+#carouselIndicators {
 	height: auto;
 	overflow: hidden;
 }
