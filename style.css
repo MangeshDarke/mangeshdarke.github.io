@@ -340,6 +340,7 @@ body {
 .footnote {
 	padding-top: 20px;
 	font-style: italic;
+	font-family: 'Roboto', sans-serif;
 	font-weight: 100;
 	text-align: center;
 }
