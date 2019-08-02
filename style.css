@@ -150,10 +150,10 @@ body {
 
 #name-pic {
 	color: white;
-	background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url('img/IMG_1623.JPG');
+	background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url('img/GoldenGateBridge.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: bottom;
 	text-align: center;
 	height: 100%;
 }
