@@ -56,9 +56,22 @@ body {
 
 .social-media-footer li {
 	display: inline-block;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 	margin-right: 10px;
+}
+
+.copyright {
+	font-size: 18px;
+	color: white;
+}
+
+.home-link {
+	color: white;
+}
+
+.home-link:hover {
+	color: gray;
 }
 
 
@@ -276,22 +289,11 @@ body {
 	font-size: 20px;
 }
 
-.links {
+.connect-content {
 	list-style: none;
-	font-size: 18px;
 }
 
-.links a {
-	color: #959090;
-	font-size: 18px;
-	font-weight: 400;
-}
-
-.links a:hover {
-	color: black;
-}
-
-.links li {
+.connect-content li {
 	display: inline-block;
 	margin-right: 10px;
 	text-decoration-color: white;
