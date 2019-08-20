@@ -17,8 +17,11 @@ body {
 	overflow-x: hidden;
 }
 
-.wrapper, .wrapper-sec, .wrapper-sec-edu {
+.wrapper, .wrapper-sec {
 	height: 100%;
+}
+
+.wrapper, .wrapper-sec, .wrapper-sec-edu {
 	width: 100%;
 	align-items: center;
 	justify-content: center;
@@ -28,9 +31,7 @@ body {
 	padding-top: 40px;
 }
 
-.wrapper-sec-edu {
-	height: 125%;
-}
+
 
 .section {
 	width: 100%;
@@ -48,6 +49,7 @@ body {
 	text-align: center;
 	font-weight: 100;
 	padding-bottom: 1px;
+	bottom: 0;
 }
 
 .social-media-footer {
@@ -438,7 +440,6 @@ body {
 }
 
 .courses {
-
 	margin-left: 10px;
 }
 
