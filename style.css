@@ -17,14 +17,21 @@ body {
 	overflow-x: hidden;
 }
 
-.wrapper, .wrapper-sec, .wrapper-sec-edu {
-	height: 100%;
+.wrapper, .wrapper-sec, .wrapper-sec-edu, .wrapper-sec-photo {
 	width: 100%;
 	align-items: center;
 	justify-content: center;
 }
 
-.wrapper-sec, .wrapper-sec-edu {
+.wrapper, .wrapper-sec {
+	height: 100%;
+}
+
+.wrapper-sec {
+	padding-top: 40px;
+}
+
+.wrapper-sec-edu, .wrapper-sec-photo {
 	height: auto;
 	padding-top: 40px;
 }
