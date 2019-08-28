@@ -461,7 +461,7 @@ body {
 .photo-description-section {
 	padding-top: 30px;
 	padding-right: 20px;
-	padding-bottom: 10px;
+	padding-bottom: 100px;
 	justify-content: center;
 	height: auto;
 	display: flex;
