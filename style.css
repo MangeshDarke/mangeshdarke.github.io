@@ -25,6 +25,7 @@ body {
 }
 
 .wrapper-sec, .wrapper-sec-edu {
+	height: auto;
 	padding-top: 40px;
 }
 
